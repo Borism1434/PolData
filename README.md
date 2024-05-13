@@ -3,7 +3,7 @@ A dataset with political datasets
 
 ### Description
 
-A collection of political datasets. The datasets are listed below within specific categories: cabinets, citizens, constitutions, political institutions, parties and politicians, democracy, economics, elections, international relations, media, policy, political elites, political speeches and debates. All datasets are listed in the datasets in the repository (`.xlsx`, `.csv`s) with detailed information on the topics, coverage and availability of the respective datasets.
+A collection of political datasets. The datasets are listed below within specific categories: cabinets, citizens, constitutions, political institutions, parties and politicians, democracy, economics, elections, international relations, media, policy, political elites, political speeches and debates. All datasets are listed in the datasets in the repository (`.xlsx`, `.csv`) with detailed information on the topics, coverage and availability of the respective datasets.
 
 ## Variables in the dataset
 
@@ -21,7 +21,7 @@ A collection of political datasets. The datasets are listed below within specifi
 - `year_end` = Time coverage, year end
 - `availability` = Availability of dataset
 - `registration` = Requirements for data access
-- `free`= Free access to data (1 = Yes, 0 = No)
+- `license`= License (identifiers from [SPDX License List](https://spdx.org/licenses/))
 - `file_codebook` = URL to documentation (usually `.pdf`)
 - `file_csv` = URL to dataset (`.csv`)
 - `file_dta` = URL to dataset (`.dta`)
@@ -32,10 +32,9 @@ A collection of political datasets. The datasets are listed below within specifi
 - `variable_country` = Name of country string variable
 - `variable_year` = Name of year variable
 - `variable_cow` = Name of Correlates of War numeric identifier variable
-- `doi_article` = DOI for article on dataset
+- `doi_article` = DOI for related publication
 - `doi_dataset` = DOI for dataset
 - `revised` = Date for last revision in PolData (ISO 8601, YYYYMMDD)
-- `note` = Additional info
 
 #### Something missing?
 
@@ -54,9 +53,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [ParlGov: Cabinets](http://www.parlgov.org/)
 - [Parliamentary Rules Database](https://parlrulesdata.org/)
 - [Parliaments and governments database](http://www.parlgov.org/)
-- [Portfolio Allocation in Western Europe](http://www.erdda.se/index.php/projects/cpd/data-archive)
-- [Seki-Williams Governments Dataset](http://faculty.missouri.edu/williamslaro/govtdata.html)
-- [Seki-Williams Ministers Dataset](http://faculty.missouri.edu/williamslaro/govtdata.html)
+- [Seki-Williams Government and Ministers Data](https://doi.org/10.7910/DVN/0UNUAM)
 - [United States of America Cabinet Appointments Dataset](https://github.com/taitcha/American_cabinet_appointments)
 - [Veto Players Data](https://sites.lsa.umich.edu/tsebelis/data/veto-players-data/)
 - [WhoGov](https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/)
@@ -90,7 +87,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Hellenic National Election Studies](http://www.elnes.gr/)
 - [Icelandic National Election Study](http://fel.hi.is/icelandic_national_election_study_icenes)
 - [Irish National Election Study](http://www.tcd.ie/ines/index.php?action=download)
-- [Israel National Election Studies](http://www.ines.tau.ac.il/elections.html)
+- [Israel National Election Studies](https://socsci4.tau.ac.il/mu2/ines/)
 - [Italian National Election Studies](http://www.itanes.org/en/)
 - [New Zealand Election Study](http://www.nzes.org/exec/show/data)
 - [Norwegian Election Studies](http://www.nsd.uib.no/nsddata/serier/norske_valgundersokelser_eng.html)
@@ -119,7 +116,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [General Social Survey](http://gss.norc.org/)
 - [German General Social Survey](https://www.gesis.org/en/allbus/allbus-home)
 - [Global Preferences Survey](https://www.briq-institute.org/global-preferences/downloads)
-- [International Social Survey Programme](http://www.issp.org/menu-top/home/)
+- [International Social Survey Programme](http://www.issp.org/)
 - [Investing in Education in Europe](https://search.gesis.org/research_data/ZA6961)
 - [Issue Competition Comparative Project](https://cise.luiss.it/iccp/index.php/data/)
 - [Korean General Social Survey](http://kgss.skku.edu/?page_id=39)
@@ -173,12 +170,18 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Poll of Polls](https://pollofpolls.eu/)
 - [Polls and the Timeline of Elections](https://liberalarts.utexas.edu/government/faculty/cw26629#datasets-on-polls-and-the-timeline-of-elections)
 - [Public support for political parties in Denmark](https://github.com/erikgahner/polls)
+- [State Executive Approval Database](https://doi.org/10.15139/S3/QHHQEF)
 - [SwedishPolls](https://github.com/MansMeg/SwedishPolls)
+
+#### Social media
+
+- [Truth Social Dataset](https://doi.org/10.48550/arXiv.2303.11240)
 
 ### Constitutions
 
 - [Comparative Constitutions Project](http://comparativeconstitutionsproject.org/download-data/)
 - [Constitutional Court of Turkey Justice Decisions Dataset](http://www.efetokdemir.com/data.html)
+- [Electoral Legislation by Country](https://doi.org/10.7910/DVN/TIH5FK)
 - [Judicial Checks and Balances](http://faculty.tuck.dartmouth.edu/rafael-laporta/research-publications/)
 - [Religion and State Project Constitutions Dataset](http://www.thearda.com/archive/files/Descriptions/RASCONS.asp)
 
@@ -189,6 +192,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Comparative Political Data Set](http://www.cpds-data.org/)
 - [Comparative Voter ID Law Index](https://doi.org/10.7910/DVN/RU2F9A)
 - [Congressional Whip Count Database](https://wmpeople.wm.edu/site/page/clevan/congressionalwhipcountdatabase)
+- [Court of Justice of the European Union Database](https://www.iuropa.pol.gu.se/cjeu-database/cjeu-database-platform)
 - [Database of Political Institutions](https://www.iadb.org/en/research-and-data/dpi2020)
 - [Disclosure by Politicians](http://mba.tuck.dartmouth.edu/pages/faculty/rafael.laporta/publications.html)
 - [Electoral Law Indicators](http://globalcit.eu/electoral-law-indicators/)
@@ -197,7 +201,6 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Extraterritorial Voting Rights and Restrictions Dataset](https://www.evrrdataset.com/)
 - [German Federal Courts Dataset](http://www.richter-im-internet.de)
 - [Institutional Characteristics of Trade Unions, Wage Setting, State Intervention and Social Pacts](http://www.uva-aias.net/en/ictwss)
-- [Institutional Quality Dataset](https://sites.google.com/site/aljazkuncic/research)
 - [Institutions and Elections Project](https://havardhegre.net/iaep/)
 - [Judicial Review of Congress Database](https://scholar.princeton.edu/kewhitt/judicial-review-congress-database)
 - [Legislative production in the EU, 1967-2012](http://www.dimiter.eu/Data.html)
@@ -222,6 +225,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [CongressData](https://congress.ippsr.msu.edu/congress/)
 - [Congress slaveowners](https://github.com/washingtonpost/data-congress-slaveowners/)
 - [Congressional Scandals](https://doi.org/10.7910/DVN/BID3QM)
+- [Danish Legislator Database](https://doi.org/10.7910/DVN/4SFNC0)
 - [Elected LGBTQ Officials](https://queerpolitics.princeton.edu/data)
 - [EPRG MEP Surveys](https://mepsurvey.eu/data-objects/data/)
 - [Ethnonationalism in Party Competition](http://christinazuber.com/data/)
@@ -234,14 +238,18 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Local Candidate Dataset](http://www.jon.fiva.no/data.htm)
 - [Manifesto Project Main Dataset (Party Preferences)](https://manifesto-project.wzb.eu/datasets)
 - [Members and Activists of Political Parties](https://zenodo.org/record/61234)
+- [Members of the European Parliament](https://doi.org/10.7910/DVN/V2FJEF)
 - [MPs additional income](https://datalobo.com/mp-earnings/)
+- [National Defense Engagement Index](https://doi.org/10.1111/lsq.12437)
 - [New Parties and Party System Innovation in Western Europe since 1945](https://cise.luiss.it/cise/dataset-of-new-parties-and-party-system-innovation-in-western-europe-since-1945/)
 - [Norwegian Parliamentary Elections, 1906-2021](https://www.jon.fiva.no/data.htm)
+- [One-Party Membership Dataset](https://doi.org/10.1177/00223433231155278)
 - [ParlGov: Parties](http://www.parlgov.org/)
 - [Parliaments Day-By-Day](https://doi.org/10.7910/DVN/PYGBDO)
 - [Parties’ Group Appeals Dataset](https://doi.org/10.7910/DVN/NZQGST)
 - [Party Facts](https://partyfacts.herokuapp.com/)
 - [Party Policy in Modern Democracies](http://www.tcd.ie/Political_Science/ppmd/)
+- [Party positions from Wikipedia tags](https://github.com/hdigital/partypositions-wikitags)
 - [Party Representation of Social Groups](https://doi.org/10.1177%2F13540688211023859)
 - [Party-Interest Group Relationships in Contemporary Democracies](https://pairdem.org/pairdem/)
 - [Political Leaders’ Affiliation Database](https://doi.org/10.7910/DVN/YUS575)
@@ -258,6 +266,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [The PopuList](https://popu-list.org/)
 - [The Reed-Smith Japanese House of Representatives Elections Dataset](https://doi.org/10.7910/DVN/QFEPXD)
 - [Varieties of Party Identity and Organization (V-Party)](https://doi.org/10.23696/vpartydsv1)
+- [Voteview: Congressional Roll-Call Votes Database](https://voteview.com/data)
 - [Women in National Parliaments](http://www.ipu.org/wmn-e/world-arc.htm)
 
 ### Democracy
@@ -286,10 +295,10 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 
 - [Administrative Capacities](https://www.hertie-school.org/en/governancereport/govreport-indicators/)
 - [Corruption Perceptions Index](https://www.transparency.org/research/cpi/)
-- [Ibrahim Index of African Governance](http://mo.ibrahim.foundation/iiag/downloads/)
 - [Quality of Government](http://qog.pol.gu.se/data/datadownloads/qogstandarddata)
-- [Relative Political Capacity Dataset](http://hdl.handle.net/1902.1/16845)
+- [Relative Political Capacity Dataset](https://doi.org/10.7910/DVN/NRR7MB)
 - [State Reach in Africa](http://www.carlmueller-crepon.org/project/statecap_data/)
+- [Telecommunications Ownership and Control](https://doi.org/10.1007/s11558-022-09483-z)
 - [Territorial Self-Governance Dataset](https://territorial-governance.com/)
 - [Worldwide Bureaucracy Indicators](https://datacatalog.worldbank.org/dataset/worldwide-bureaucracy-indicators)
 - [Worldwide Governance Indicators](https://data.worldbank.org/data-catalog/worldwide-governance-indicators)
@@ -307,9 +316,11 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Culture of cooperation and inclusive political institutions](https://doi.org/10.1016/j.dib.2019.104731)
 - [Design of Trade Agreements Database](https://www.designoftradeagreements.org/downloads/)
 - [Economic Freedom of the World](https://www.fraserinstitute.org/economic-freedom/dataset)
+- [Economic Policy Uncertainty Index](http://policyuncertainty.com/all_country_data.html)
 - [Expanded Trade and GDP Data](http://ksgleditsch.com/exptradegdp.html)
 - [Federico-Tena World Trade Historical Database](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/TextoMixta/1371246237481/Federico-Tena_World_Trade_Historical_Database)
 - [Financial Development and Structure Dataset](https://www.worldbank.org/en/publication/gfdr/data/financial-structure-database)
+- [Financial Reform Database](https://sawaomori.jpn.org/data/)
 - [Financing the State](https://www.perfandersson.com/data.html)
 - [Fiscal Crisis Episodes](https://www.imf.org/en/Publications/WP/Issues/2017/04/03/Fiscal-Crises-44795)
 - [Global Debt Database](https://www.imf.org/external/datamapper/datasets/GDD)
@@ -325,8 +336,10 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Long-Term Productivity Database](http://longtermproductivity.com/)
 - [Maddison Project Database](https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020?lang=en)
 - [National Accounts Main Aggregates Database](https://unstats.un.org/unsd/snaama/dnlList.asp)
+- [Real effective exchange rates](https://www.bruegel.org/publications/datasets/real-effective-exchange-rates-for-178-countries-a-new-database)
 - [Rosés-Wolf database on regional GDP](https://www.wiwi.hu-berlin.de/de/professuren/vwl/wg/resources/roses-wolf-database-on-regional-gdp)
 - [Standardized World Income Inequality Database](https://fsolt.org/swiid/)
+- [Subnational Trade Competitiveness](https://doi.org/10.7910/DVN/BWRGUR)
 - [Systemic Banking Crises Database](https://www.imf.org/en/Publications/WP/Issues/2016/12/31/Systemic-Banking-Crises-Database-An-Update-26015)
 - [Total Economy Database](https://www.conference-board.org/data/economydatabase/index.cfm?id=27762)
 - [Union Centralization among Advanced Industrial Societies](https://doi.org/10.7910/DVN/07YQSZ)
@@ -336,23 +349,26 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 
 ### Elections
 
+- [African Elections Database](https://africanelections.tripod.com/)
 - [Comprehensive European Parliament Electoral Data](https://doi.org/10.7910/DVN/GNRMTO)
 - [Constituency-Level Elections Archive](http://www.electiondataarchive.org/)
 - [Democratic Electoral Systems](http://mattgolder.com/elections)
 - [Danish General Election Results](https://github.com/Straubinger/folketingsvalg)
-- [Database on Ideology, Money in Politics, and Elections](https://data.stanford.edu/dime#download-data)
+- [Database on Ideology, Money in Politics, and Elections](https://data.stanford.edu/dime)
 - [Eggers and Spirling British Political Development database](https://github.com/ArthurSpirling/EggersSpirlingDatabase)
+- [Electoral Management Survey](https://www.electoralintegrityproject.com/electoralmanagementsurvey)
 - [Electoral Volatility and its internal components in Western Europe](https://cise.luiss.it/cise/dataset-of-electoral-volatility-and-its-internal-components-in-western-europe-1945-2015/)
 - [Electoral Volatility in the European Parliament elections](https://cise.luiss.it/cise/dataset-of-electoral-volatility-in-the-european-parliament-elections-since-1979/)
 - [European NUTS-Level Election Database](https://eu-ned.com/)
 - [German Bundestag Election Results at Constituency Level](https://doi.org/10.7910/DVN/S1M6SA)
+- [Global Dataset on Turnout](https://doi.org/10.7910/DVN/NYXHU9)
 - [Global Elections Database](http://www.globalelectionsdatabase.com/index.php/datasets)
 - [Inequality and Direct Democracy: European Referenda](https://www.goethe-university-frankfurt.de/74273531/Inequality_and_Direct_Democracy_in_Europe)
 - [Inequality and Direct Democracy: International Referenda](https://www.goethe-university-frankfurt.de/74273531/Inequality_and_Direct_Democracy_in_Europe)
 - [Local Government Dataset](http://www.jon.fiva.no/data.htm)
 - [National Elections Across Democracy and Autocracy](http://www.nelda.co/)
 - [NCSL Ballot Measures](https://ippsr.msu.edu/public-policy/correlates-state-policy/ncsl-ballot-measures-correlates)
-- [Negative Campaigning Comparative Expert Survey](https://www.alessandro-nai.com/negex-data)
+- [Negative Campaigning Comparative Data](https://www.alessandro-nai.com/negex-data)
 - [Net Volatility in Western Europe](https://soc.kuleuven.be/web/staticpage/11/95/eng/1197)
 - [ParlGov: Elections](http://www.parlgov.org/)
 - [Partisan Electoral Interventions by the Great-powers](https://www.dovhlevin.com/datasets)
@@ -372,6 +388,8 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 
 ### International relations
 
+- [African Relational Pro-Government Militia Dataset](https://doi.org/10.1080/03050629.2018.1458724)
+- [AfroGrid](https://doi.org/10.7910/DVN/LDI5TK)
 - [Aid Worker Security Database](https://aidworkersecurity.org/incidents)
 - [AidData](http://aiddata.org/data/aiddata-core-research-release-level-1-v3-0)
 - [Alliance Treaty Obligations and Provisions](http://atop.rice.edu/data)
@@ -379,9 +397,11 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Armed Group Dataset](https://armedgroupdataset.org/)
 - [Armed Conflict Location & Event Data Project](https://acleddata.com/data-export-tool/)
 - [Authoritarian Ruling Elites Database](https://sites.google.com/view/austinsmatthews/data-projects)
+- [Border Crossings of the World Dataset](https://doi.org/10.1177/00223433221145582)
 - [Certificates of Competency for Nominees to be Chiefs of Mission](https://ryanscoville.com/2019/02/13/certificates-of-competency-for-nominees-to-be-chiefs-of-mission-1980-2014/)
 - [Chance-Corrected Measures of Foreign Policy Similarity](https://doi.org/10.7910/DVN/ALVXLM)
 - [Change in Source of Leader Support](http://www.chisols.org/)
+- [Colonial Dates Dataset](https://doi.org/10.7910/DVN/T9SDEW)
 - [Colpus Regime Data](https://www.johnjchin.com/colpus)
 - [Commercial Military Actor Database](https://doi.org/10.7910/DVN/TOFZ09)
 - [Conflict Catalog](http://www.cgeh.nl/data#conflict)
@@ -396,6 +416,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Deadly Electoral Conflict Dataset](https://ucdp.uu.se/downloads/index.html#deco)
 - [Disaggregated Military Expenditure](http://pages.ucsd.edu/~egartzke/datasets.htm)
 - [Displacement Locations](https://github.com/global-displacement-locations/displacement_locations_unhcr)
+- [Distribution of Military Capabilities](https://www.militarycapabilities.com/data)
 - [Domestic Terrorist Victims dataset](https://doi.org/10.7910/DVN/HJHGYA)
 - [Electoral Contention and Violence](https://ecavdata.org/)
 - [Forcibly Displaced Populations](http://www.systemicpeace.org/inscrdata.html)
@@ -404,6 +425,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Fragile States Index](https://fragilestatesindex.org/)
 - [From Empire to Nation-State](http://www.columbia.edu/~aw2951/Datasets.html)
 - [Frozen conflicts in world politics](https://doi.org/10.1177%2F0022343320929726)
+- [Gender and Diplomatic Representation](https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation)
 - [Geocoded Peacekeeping Operations](https://doi.org/10.1177%2F0022343319871978)
 - [Geopolitical Risk Index](https://www.matteoiacoviello.com/gpr_country.htm)
 - [Gibler-Miller-Little Militarized Interstate Dispute](http://svmiller.com/gml-mid-data/)
@@ -415,6 +437,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Historical Conflict Event Dataset](https://doi.org/10.7910/DVN/6ZFC0V)
 - [Historical terrorist groups](https://jtschantret.com/data/)
 - [Historical Varieties of Democracy](https://www.v-dem.net/en/historical/)
+- [Humanitarian Organisations Dataset](https://doi.org/10.1093/isq/sqac009)
 - [Ill-Treatment and Torture](http://faculty.ucmerced.edu/cconrad2/Academic/Data.html)
 - [Implementation of Pacts](https://www.pcr.uu.se/data/impact-dataset/)
 - [International Crisis Behaviors Events](https://www.crisisevents.org/)
@@ -424,6 +447,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [International Political Economy Data Resource](https://doi.org/10.7910/DVN/X093TV)
 - [International Sanctions Termination](https://doi.org/10.7910/DVN/SVR5W7)
 - [Interstate War Battle dataset](https://doi.org/10.1177%2F0022343320913305)
+- [Jihadi Plots in Europe Dataset](https://doi.org/10.1177/00223433221123360)
 - [Jihadi Plots in the West](https://hegghammer.com/resources/)
 - [Joint Military Exercises Dataset](https://doi.org/10.7910/DVN/HXQFHU)
 - [Konstanz One-Sided Violence Event Dataset](https://cms.uni-konstanz.de/fileadmin/archive/kosved/polver/gschneider/forschung/kosved/data/)
@@ -435,6 +459,8 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Memberships in Conventional Intergovernmental Organizations](http://www.systemicpeace.org/inscrdata.html)
 - [Militant Group Electoral Participation Dataset](https://doi.org/10.7910/DVN/FB0R8A)
 - [Militarized Compellent Threats](http://hdl.handle.net/1902.1/17315)
+- [Militarized Interstate Confrontation Dataset](https://doi.org/10.1177/00220027221104704)
+- [Militarized Interstate Events](https://doi.org/10.1177/07388942231182674)
 - [Military Intervention Project](https://sites.tufts.edu/css/mip-research/)
 - [Military Mutinies and Defections Database](https://doi.org/10.1177%2F00223433211020092)
 - [Military Purges in Dictatorships](https://doi.org/10.1177%2F0022343320966375)
@@ -457,7 +483,10 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Power-Sharing Event Dataset](http://www.martinottmann.com/project/psed/)
 - [Pro-Government Militias Database](https://www.sabinecarey.com/militias-data)
 - [Quantified Political Relationships](http://www.simonweschle.com/data)
+- [Rebel Appeals and Incentives Dataset](https://www.michaelsoules.com/general-5)
 - [Rebel Contraband Dataset](http://civilwardynamics.org/data/)
+- [Rebel Foreign Fighter Dataset](https://doi.org/10.1177/00223433231168183)
+- [Rebel Human Rights Violations](https://doi.org/10.1177/00223433221147940)
 - [Rebel Organization Leaders Database](https://www.rebelleaders.org/)
 - [Regular Turnover Details](https://doi.org/10.1177/00223433211045854)
 - [Reputation of Terror Groups](http://www.efetokdemir.com/data.html)
@@ -466,6 +495,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Rising Powers Diplomatic Network](https://doi.org/10.7910/DVN/5FISNQ)
 - [Rulers, Elections, and Irregular Governance](https://oefdatascience.github.io/REIGN.github.io/)
 - [Sexual Violence in Armed Conflict](http://www.sexualviolencedata.org/dataset/)
+- [Significant Incidents Against Americans Abroad](https://doi.org/10.7910/DVN/RL15CN)
 - [Social Conflict Analysis Database](https://www.strausscenter.org/scad.html)
 - [State Failure Problem Set](http://www.systemicpeace.org/inscrdata.html)
 - [State Fragility Index](http://www.systemicpeace.org/inscrdata.html)
@@ -476,6 +506,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [The Affinity of Nations: Similarity of State Voting Positions in the UNGA](http://pages.ucsd.edu/~egartzke/datasets.htm)
 - [The Cease-Fires Data Set](http://www.columbia.edu/~vpf4/research.htm)
 - [The CIRI Human Rights Dataset](http://www.humanrightsdata.com/p/data-documentation.html)
+- [The Civil Conflict Ceasefire dataset](https://ceasefireproject.org/download/)
 - [The Dyadic Cyber Incident and Dispute Data](https://drryanmaness.wixsite.com/cyberconflict/cyber-conflict-dataset)
 - [The Logic of Political Survival](http://www.nyu.edu/gsas/dept/politics/data/bdm2s2/Logic.htm)
 - [Threat and Imposition of Sanctions](http://sanctions.web.unc.edu/)
@@ -494,6 +525,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 
 ### Media
 
+- [BuzzFeed News “Trending” Strip](https://github.com/jsvine/buzzfeed-news-trending-strip/)
 - [Comparative Agendas Project: Media](http://www.comparativeagendas.net/datasets_codebooks)
 - [Political Advertisements from Facebook](https://www.propublica.org/datastore/dataset/political-advertisements-from-facebook)
 - [Global Media Freedom Dataset](http://faculty.uml.edu/Jenifer_whittenwoodring/MediaFreedomData_000.aspx)
@@ -516,15 +548,23 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Comparative Welfare Entitlements Dataset](http://cwed2.org/download.php)
 - [Comparative Welfare States Data Set](http://www.lisdatacenter.org/resources/other-databases/)
 - [Correlates of State Policy](http://ippsr.msu.edu/public-policy/correlates-state-policy)
+- [COVID-19 vaccine policies](https://github.com/OxCGRT/covid-policy-tracker)
+- [Education Policies and Systems across Modern History](https://v-dem.net/media/publications/wp_138.pdf)
+- [EUPROPS](https://doi.org/10.1177/14651165231202034)
 - [fRDB-IZA Social Reforms Database](https://www.frdb.org/en/dati/frdb-iza-social-reforms-database/)
 - [Global Abortion Policies Database](https://abortion-policies.srhr.org/)
 - [Global Visa Cost Dataset](http://www.migrationpolicycentre.eu/globalmobilities/dataset/)
+- [Government Open Source Software Policies](https://www.csis.org/programs/strategic-technologies-program/government-open-source-software-policies)
 - [Government Revenue Dataset](https://www.wider.unu.edu/database/additional-data-files-grd)
+- [Immigrant Social Rights Dataset](https://doi.org/10.1111/spol.12955)
 - [Immigration Policies in Comparison](http://www.impic-project.eu/data/)
 - [Infrastructure Database](https://www.hsph.harvard.edu/david-canning/data-sets/)
+- [Intergovernmental Policy Output Dataset](https://doi.org/10.1007/s11558-023-09492-6)
 - [Legislative decision-making in the European Union](https://doi.org/10.34810/data53/2)
+- [Legislative Progression in the American States](https://doi.org/10.7910/DVN/8PTHXT)
 - [Multiculturalism Policy Index](https://www.queensu.ca/mcp/)
 - [Myers Abortion Facility Database](https://doi.org/10.17605/OSF.IO/8DG7R)
+- [National Database of Childcare Prices](https://www.dol.gov/agencies/wb/topics/childcare)
 - [Policy complexity in the European Union](https://www.euplex.org/data/)
 - [Public Plans Database](https://publicplansdata.org/public-plans-database/download-full-data-set/)
 - [Social Citizenship Indicator Program](http://www.spin.su.se/datasets/scip)
@@ -536,7 +576,9 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Tax Introduction Database](http://tid.seelkopf.eu/)
 - [The European pension politics dataset](http://euiresdata.eui.eu/xmlui/handle/123456789/32)
 - [The Regulation of Labor](https://scholar.harvard.edu/shleifer/publications/regulation-labor)
+- [Trans Rights Indicator Project](https://doi.org/10.1017/S1537592723002827)
 - [Working Time Regulation](https://sites.google.com/view/magnusberglirasmussen/datasets)
+- [World Education Reform Database](https://werd.stanford.edu/)
 
 ### Political elites
 
@@ -557,6 +599,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [EUSpeech](https://doi.org/10.7910/DVN/XPCVEI)
 - [European Central Bank: Speeches data](https://www.ecb.europa.eu/press/key/html/downloads.en.html)
 - [German Political Speeches Corpus and Visualization](http://adrien.barbaresi.eu/corpora/speeches/)
+- [GermaParl Corpus of Parliamentary Protocols](https://zenodo.org/record/7949074)
 - [Hansard Speeches and Sentiment](https://evanodell.com/projects/datasets/hansard-data/)
 - [MAPLE Parliamentary Datasets](https://doi.org/10.7910/DVN/9MN0RL)
 - [ParlEE Plenary Speeches](https://doi.org/10.7910/DVN/ZY3RV7)
@@ -566,6 +609,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [parlScot](https://doi.org/10.7910/DVN/EQ9WBE)
 - [ParlSpeech](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E4RSP9&version=1.0)
 - [ParlSpeech V2](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN)
+- [Swedish parliamentary proceedings](https://github.com/welfare-state-analytics/riksdagen-corpus)
 - [The UN Security Council Debates](https://doi.org/10.7910/DVN/KGVSYH)
 - [United Nations General Debate Corpus](https://github.com/sjankin/UnitedNations)
 
@@ -578,6 +622,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Mass Mobilization Protest Data](https://massmobilization.github.io/)
 - [Political Conflict and Democracy: Protest Events](https://poldem.eui.eu/download/protest-events/)
 - [Protest events](https://www.unige.ch/sciences-societe/incite/welcome-to-the-incite-website/data/new-s/)
+- [Urban Social Disorder](https://www.prio.org/data/32)
 
 ### Environment
 
@@ -611,6 +656,8 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Human Capital Index](http://www.worldbank.org/en/publication/human-capital)
 - [Incarceration Trends Dataset](https://github.com/vera-institute/incarceration_trends)
 - [KOF Globalization Index](http://globalization.kof.ethz.ch/)
+- [LocalView Public Meetings Database](https://localview.net/)
+- [Misinformation Intervention Database](https://www.democratic-erosion.com/briefs/misinformation-intervention-database/)
 - [Missing Migrants Project](https://missingmigrants.iom.int/downloads)
 - [Moral Machine](https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb1758552a362a2cf)
 - [Political Conflict and Democracy: Contentious Episodes](https://poldem.eui.eu/download/contentious-episodes/)
@@ -622,7 +669,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Religion Adherence Data](https://scholar.harvard.edu/barro/publications/religion-adherence-data)
 - [Serious Nuclear and Radiological Incidents](https://hegghammer.com/resources/)
 - [Social Capital Atlas](https://opportunityinsights.org/data/)
-- [State Antiquity Index](http://www.brown.edu/Departments/Economics/Faculty/Louis_Putterman/antiquity%20index.htm)
+- [State Antiquity Index](https://sites.google.com/brown.edu/louis-putterman)
 - [State Networks](https://ippsr.msu.edu/public-policy/state-networks)
 - [World Migration Matrix](https://sites.google.com/brown.edu/louis-putterman/world-migration-matrix-1500-2000)
 
@@ -638,6 +685,7 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Datasets for development economists](http://devecondata.blogspot.com)
 - [Datasets for empirical development economists](https://sites.google.com/site/medevecon/development-economics/devecondata)
 - [Datasets with text data for use in Natural Language Processing](https://github.com/niderhoff/nlp-datasets)
+- [Demscore](https://demscore.se/)
 - [Economic Data freely available online](https://www.economicsnetwork.ac.uk/data_sets)
 - [Economic databases](https://ec.europa.eu/info/business-economy-euro/indicators-statistics/economic-databases_en)
 - [European Representative Democracy Data Archive](http://www.erdda.se/)
@@ -657,9 +705,37 @@ Make a new issue in the repository or send me a mail at `erikgahner@gmail.com`.
 - [Paul Hensel's International Relations Data Site](http://www.paulhensel.org/data.html)
 - [Political Science Data](https://www.poliscidata.com/)
 - [Team Populism](http://populism.byu.edu/Pages/Data)
-- [Terrorism Events Data: An Inventory of Databases and Data Sets, 1968-2017](http://www.terrorismanalysts.com/pt/index.php/pot/article/view/622/html)
 - [Quantitative Social Science Data](https://f.briatte.org/teaching/quanti/data/)
+
+#### Harvard Dataverse
+
+- [American Journal of Political Science](https://dataverse.harvard.edu/dataverse/ajps)
+- [American Political Science Review](https://dataverse.harvard.edu/dataverse/the_review)
+- [Brazilian Political Science Review](https://dataverse.harvard.edu/dataverse/bpsr)
+- [British Journal of Political Science](https://dataverse.harvard.edu/dataverse/BJPolS)
+- [Comparative Political Studies](https://dataverse.harvard.edu/dataverse/cps)
+- [Foreign Policy Analysis](https://dataverse.harvard.edu/dataverse/FPA)
+- [International Interactions](https://dataverse.harvard.edu/dataverse/internationalinteractions)
+- [International Organization](https://dataverse.harvard.edu/dataverse/IOJ)
+- [International Security](https://dataverse.harvard.edu/dataverse/isec)
+- [Italian Political Science Review](https://dataverse.harvard.edu/dataverse/ipsr-risp)
+- [Japanese Journal of Political Science](https://dataverse.harvard.edu/dataverse/JJPS)
+- [Journal of Experimental Political Science](https://dataverse.harvard.edu/dataverse/xps)
+- [Journal of Human Rights](https://dataverse.harvard.edu/dataverse/jhr)
+- [Journal of Political Institutions and Political Economy](https://dataverse.harvard.edu/dataverse/jpipe)
+- [Journal of Politics](https://dataverse.harvard.edu/dataverse/jop)
+- [Journal of Public Policy](https://dataverse.harvard.edu/dataverse/JPublicPolicy)
+- [Legislative Studies Quarterly](https://dataverse.harvard.edu/dataverse/lsq)
+- [Perspectives on Politics](https://dataverse.harvard.edu/dataverse/perspectives)
+- [Political Analysis](https://dataverse.harvard.edu/dataverse/pan)
+- [Political Behavior](https://dataverse.harvard.edu/dataverse/polbehavior)
+- [Political Science Research and Methods](https://dataverse.harvard.edu/dataverse/PSRM)
+- [Public Administration](https://dataverse.harvard.edu/dataverse/pa)
+- [Research & Politics](https://dataverse.harvard.edu/dataverse/researchandpolitics)
+- [Security Studies](https://dataverse.harvard.edu/dataverse/securitystudies)
+- [State Politics & Policy Quarterly](https://dataverse.unc.edu/dataverse/sppq)
+- [World Politics](https://dataverse.harvard.edu/dataverse/world-politics)
 
 ### Acknowledgements
 
-For help and dataset suggestions, thanks to Daniel Bischof, Jon H. Fiva, Martijn Schoonvelde, Shiro Kuriwaki, Niclas Darville, Alexey Gridnev, Anne-Kathrin Kreft, Feodor Snagovsky, Joe Noonan, Michael Strebel, Felix Haass, Simon Straubinger, Bjørn Høyland and Agnar Freyr Helgason.
+For help and dataset suggestions, thanks to Daniel Bischof, Jon H. Fiva, Martijn Schoonvelde, Shiro Kuriwaki, Niclas Darville, Alexey Gridnev, Anne-Kathrin Kreft, Feodor Snagovsky, Joe Noonan, Michael Strebel, Felix Haass, Simon Straubinger, Bjørn Høyland and Agnar Freyr Helgason. Several of the datasets added to the list over the years are found via the  great newsletter [Data Is Plural](https://www.data-is-plural.com/) by Jeremy Singer-Vine.
